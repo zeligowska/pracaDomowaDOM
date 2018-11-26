@@ -1,0 +1,20 @@
+.counter {
+    width: 1000px;
+    height: fit-content;
+    text-align: center;
+    font-size: 68px;
+    font-weight: lighter;
+}
+
+.container-counter {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bttn {
+    width: 45px;
+}
