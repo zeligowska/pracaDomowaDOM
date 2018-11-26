@@ -18,3 +18,24 @@
 .bttn {
     width: 45px;
 }
+
+#toast {
+    visibility: hidden;
+    min-width: 300px;
+    background: gray;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 5px;
+}
+
+.conteiner-toast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toast.show {
+    visibility: visible;
+}
